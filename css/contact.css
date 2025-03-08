@@ -1,0 +1,135 @@
+*{
+  margin:0;
+  font-family: Arial;
+  border: border-box;
+}
+
+
+  .section1{
+    background-color:#fff8f0;
+    margin-top: 10px;
+    padding-top: 25px;
+   text-align: center;
+   font-weight: 400;
+   padding-bottom: 45px;
+  }
+
+
+   .grid{
+    margin-top: 3rem;
+    display: flex;
+   justify-content: space-around;
+   padding: 10px;
+   border-radius: 15px 50px 30px 5px; 
+   }
+
+
+.contact-section {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 45px auto;
+}
+
+.contact-image {
+    flex: 1;
+    background-image: url('images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+    color: #666666;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5c5c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e04e4e;
+}
+
+
+
+
+.contact-section2 {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-description {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-item {
+  max-width: 250px;
+  text-align: center;
+}
+
+.contact-icon {
+  margin-bottom: 15px;
+}
+
+.contact-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.contact-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-item p {
+  font-size: 16px;
+  color: #666;
+}
